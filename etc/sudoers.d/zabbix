@@ -1,0 +1,3 @@
+zabbix ALL=(ALL) SETENV:NOPASSWD:/usr/sbin/smartctl, /usr/local/bin/smartctl-discovery.sh
+Defaults:zabbix  !requiretty
+Defaults:zabbix  !syslog
